@@ -1,9 +1,8 @@
 define([
-        'controller/my-controller',
+        'controller/mine-controller',
         'lib/events'
     ],
-    function(MyController,
-             Events) {
+    function(mineController, Events) {
 
 
         return {
@@ -12,7 +11,8 @@ define([
 
                 console.log("Application init");
 
-                MyController.init();
+                //MyController.init();
+                mineController.init();
 
             }
         };

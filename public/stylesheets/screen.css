@@ -6,3 +6,15 @@ body {
 a {
   color: #00B7FF;
 }
+
+#mine {
+  position: absolute;
+  border: solid black 1px;
+  border-top-width: 0px;
+}
+
+.block {
+  background-color: #00B7FF;
+  border: 1px solid rgb(0, 160, 207);
+  float: left;
+}
